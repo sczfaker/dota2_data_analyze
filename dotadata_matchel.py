@@ -30,6 +30,51 @@ teamfights
 tower_status_dire
 tower_status_radiant
 
+match_id 比赛唯一数字代码
+barracks_status_dire 什么数据?
+barracks_status_radiant 什么数据?
+chat 类型,时间,内容,人物
+cluster 
+cosmetics 
+dire_score 人头
+dire_team_id
+draft_timings
+duration
+engine
+first_blood_time 一血时间
+game_mode 比赛模式
+human_players 人
+leagueid 联赛唯一数字代码
+lobby_type
+match_seq_num
+negative_votes
+objectives
+picks_bans
+positive_votes
+radiant_gold_adv 平均金钱
+radiant_score 
+radiant_team_id
+radiant_win
+radiant_xp_adv 平均金钱
+skill
+start_time
+teamfights
+tower_status_dire
+tower_status_radiant
+version
+replay_salt
+series_id
+series_type
+league
+radiant_team
+dire_team
+players
+patch
+all_word_counts 
+my_word_counts
+comeback 翻盘
+stomp
+replay_url 录像地址
 
 [{'is_pick': False, 'hero_id': 50, 'team': 1, 'order': 0, 'ord': 0, 'match_id': 5367291672}, {'is_pick': False, 'hero_id': 129, 'team': 0, 'order': 1, 'ord': 1, 'match_id': 5367291672}, {'is_pick': False, 'hero_id': 53, 'team': 1, 'order': 2, 'ord': 2, 'match_id': 5367291672}, {'is_pick': False, 'hero_id': 43, 'team': 0, 'order': 3, 'ord': 3, 'match_id': 5367291672}, {'is_pick': False, 'hero_id': 77, 'team': 1, 'order': 4, 'ord': 4, 'match_id': 5367291672}, {'is_pick': False, 'hero_id': 98, 'team': 0, 'order': 5, 'ord': 5, 'match_id': 5367291672}, {'is_pick': False, 'hero_id': 126, 'team': 1, 'order': 6, 'ord': 6, 'match_id': 5367291672}, {'is_pick': False, 'hero_id': 65, 'team': 0, 'order': 7, 'ord': 7, 'match_id': 5367291672}, {'is_pick': True, 'hero_id': 90, 'team': 1, 'order': 8, 'ord': 8, 'match_id': 5367291672}, {'is_pick': True, 'hero_id': 106, 'team': 0, 'order': 9, 'ord': 9, 'match_id': 5367291672}, {'is_pick': True, 'hero_id': 88, 'team': 0, 'order': 10, 'ord': 10, 'match_id': 5367291672}, {'is_pick': True, 'hero_id': 99, 'team': 1, 'order': 11, 'ord': 11, 'match_id': 5367291672}, {'is_pick': False, 'hero_id': 2, 'team': 1, 'order': 12, 'ord': 12, 'match_id': 5367291672}, {'is_pick': False, 'hero_id': 104, 'team': 0, 'order': 13, 'ord': 13, 'match_id': 5367291672}, {'is_pick': True, 'hero_id': 40, 'team': 0, 'order': 14, 'ord': 14, 'match_id': 5367291672}, {'is_pick': True, 'hero_id': 86, 'team': 1, 'order': 15, 'ord': 15, 'match_id': 5367291672}, {'is_pick': True, 'hero_id': 5, 'team': 0, 'order': 16, 'ord': 16, 'match_id': 5367291672}, {'is_pick': True, 'hero_id': 102, 'team': 1, 'order': 17, 'ord': 17, 'match_id': 5367291672}, {'is_pick': False, 'hero_id': 15, 'team': 0, 'order': 18, 'ord': 18, 'match_id': 5367291672}, {'is_pick': False, 'hero_id': 93, 'team': 1, 'order': 19, 'ord': 19, 'match_id': 5367291672}, {'is_pick': True, 'hero_id': 46, 'team': 1, 'order': 20, 'ord': 20, 'match_id': 5367291672}, {'is_pick': True, 'hero_id': 49, 'team': 0, 'order': 21, 'ord': 21, 'match_id': 5367291672}]
 232
@@ -508,3 +553,239 @@ tower_status_radiant
 50
 36 119 None
 [Finished in 1.9s]
+
+
+4 {'fullname': 'EHOME', 'winlose': {'win': 29, 'lose': 19}}
+1375614 {'fullname': 'Newbee', 'winlose': {'win': 14, 'lose': 19}}
+3586078 {'fullname': 'Geek Fam', 'winlose': {'win': 10, 'lose': 13}}
+7098928 {'fullname': 'Adroit', 'winlose': {'win': 13, 'lose': 12}}
+6209804 {'fullname': 'Royal Never Give Up', 'winlose': {'win': 32, 'lose': 20}}
+5 {'fullname': 'INVICTUS GAMING', 'winlose': {'win': 27, 'lose': 26}}
+15 {'fullname': 'PSG.LGD', 'winlose': {'win': 31, 'lose': 19}}
+726228 {'fullname': 'Vici Gaming', 'winlose': {'win': 18, 'lose': 20}}
+7441136 {'fullname': 'beastcoast', 'winlose': {'win': 15, 'lose': 12}}
+6382242 {'fullname': 'Thunder Predator', 'winlose': {'win': 11, 'lose': 15}}
+7806386 {'fullname': 'Quincy Crew', 'winlose': {'win': 6, 'lose': 5}}
+39 {'fullname': 'Evil Geniuses', 'winlose': {'win': 14, 'lose': 14}}
+7732977 {'fullname': 'BOOM Esports', 'winlose': {'win': 18, 'lose': 15}}
+350190 {'fullname': 'Fnatic', 'winlose': {'win': 22, 'lose': 10}}
+7298091 {'fullname': 'NoPing Esports', 'winlose': {'win': 7, 'lose': 4}}
+7220281 {'fullname': 'Furia', 'winlose': {'win': 3, 'lose': 6}}
+7681441 {'fullname': 'business associates', 'winlose': {'win': 9, 'lose': 13}}
+7748744 {'fullname': 'CR4ZY', 'winlose': {'win': 15, 'lose': 13}}
+7653600 {'fullname': 'Aggressive Mode', 'winlose': {'win': 17, 'lose': 7}}
+7118032 {'fullname': 'Winstrike Team', 'winlose': {'win': 13, 'lose': 25}}
+7553952 {'fullname': 'Chicken Fighters !', 'winlose': {'win': 22, 'lose': 15}}
+7556672 {'fullname': 'TEMPO', 'winlose': {'win': 3, 'lose': 4}}
+7641673 {'fullname': 'Aggressive Mode.', 'winlose': {'win': 1, 'lose': 0}}
+6209143 {'fullname': 'Gambit Esports', 'winlose': {'win': 9, 'lose': 24}}
+6685591 {'fullname': 'ViKin.gg', 'winlose': {'win': 42, 'lose': 37}}
+2586976 {'fullname': 'OG', 'winlose': {'win': 47, 'lose': 39}}
+7554697 {'fullname': 'Nigma', 'winlose': {'win': 40, 'lose': 28}}
+1883502 {'fullname': 'Virtus.pro', 'winlose': {'win': 27, 'lose': 19}}
+7422789 {'fullname': 'HellRaisers', 'winlose': {'win': 18, 'lose': 27}}
+7684041 {'fullname': 'B8', 'winlose': {'win': 13, 'lose': 26}}
+7669103 {'fullname': 'Cyber Legacy', 'winlose': {'win': 18, 'lose': 26}}
+7119388 {'fullname': 'Team Spirit', 'winlose': {'win': 14, 'lose': 19}}
+7820540 {'fullname': 'Team Unique', 'winlose': {'win': 21, 'lose': 32}}
+36 {'fullname': 'Natus Vincere', 'winlose': {'win': 15, 'lose': 24}}
+2163 {'fullname': 'Team Liquid', 'winlose': {'win': 42, 'lose': 37}}
+1838315 {'fullname': 'Team Secret', 'winlose': {'win': 64, 'lose': 14}}
+6214973 {'fullname': 'Ninjas in Pyjamas', 'winlose': {'win': 28, 'lose': 39}}
+111474 {'fullname': 'Alliance', 'winlose': {'win': 42, 'lose': 40}}
+null {'fullname': '', 'winlose': {'win': 6, 'lose': 12}}
+2277712 {'fullname': 'StarLucK.Fly', 'winlose': {'win': 20, 'lose': 10}}
+7470549 {'fullname': 'Blaze', 'winlose': {'win': 10, 'lose': 10}}
+7406964 {'fullname': 'The New Top', 'winlose': {'win': 5, 'lose': 11}}
+7514223 {'fullname': 'Longinus', 'winlose': {'win': 8, 'lose': 17}}
+5805234 {'fullname': 'You Know Who', 'winlose': {'win': 10, 'lose': 9}}
+7099096 {'fullname': 'Typhoon', 'winlose': {'win': 4, 'lose': 6}}
+7453020 {'fullname': 'Aster.Aries', 'winlose': {'win': 0, 'lose': 4}}
+7554790 {'fullname': 'KG.Luminous', 'winlose': {'win': 1, 'lose': 3}}
+7422511 {'fullname': 'VICI GAMING POTENTIAL', 'winlose': {'win': 0, 'lose': 4}}
+1520578 {'fullname': 'CDEC ', 'winlose': {'win': 42, 'lose': 21}}
+7267298 {'fullname': 'EHOME.Immortal', 'winlose': {'win': 2, 'lose': 5}}
+2640025 {'fullname': 'iG.Vitality', 'winlose': {'win': 3, 'lose': 4}}
+7059982 {'fullname': 'Team Sirius', 'winlose': {'win': 7, 'lose': 4}}
+2634810 {'fullname': 'KG.Luminous', 'winlose': {'win': 0, 'lose': 2}}
+7484403 {'fullname': 'Ocean', 'winlose': {'win': 1, 'lose': 3}}
+6209166 {'fullname': 'Team Aster', 'winlose': {'win': 14, 'lose': 16}}
+2626685 {'fullname': 'KEEN GAMING', 'winlose': {'win': 6, 'lose': 14}}
+7407260 {'fullname': 'Sparking Arrow Gaming', 'winlose': {'win': 7, 'lose': 23}}
+7819112 {'fullname': 'GoodFellaz', 'winlose': {'win': 4, 'lose': 2}}
+7798992 {'fullname': 'Last Gun Gaming', 'winlose': {'win': 0, 'lose': 1}}
+7700123 {'fullname': 'UNKNOWN', 'winlose': {'win': 0, 'lose': 1}}
+7668075 {'fullname': 'Kingpins', 'winlose': {'win': 1, 'lose': 1}}
+7914228 {'fullname': 'TEAM GOLD DIGGERS', 'winlose': {'win': 0, 'lose': 1}}
+7667517 {'fullname': 'LGD.international', 'winlose': {'win': 3, 'lose': 1}}
+6795631 {'fullname': 'Flower Gaming', 'winlose': {'win': 7, 'lose': 4}}
+7653080 {'fullname': 'Yangon Galacticos', 'winlose': {'win': 0, 'lose': 1}}
+7358549 {'fullname': 'Jayz Mujibz', 'winlose': {'win': 0, 'lose': 1}}
+7424172 {'fullname': 'T1', 'winlose': {'win': 4, 'lose': 2}}
+7406561 {'fullname': 'Savvy-We Goin In Baby', 'winlose': {'win': 0, 'lose': 1}}
+7800448 {'fullname': 'Apex', 'winlose': {'win': 1, 'lose': 1}}
+6738815 {'fullname': 'Cignal Ultra', 'winlose': {'win': 0, 'lose': 1}}
+7849151 {'fullname': 'CR', 'winlose': {'win': 10, 'lose': 6}}
+7624504 {'fullname': 'MS Chonburi', 'winlose': {'win': 0, 'lose': 1}}
+7356881 {'fullname': 'SHENZHEN', 'winlose': {'win': 2, 'lose': 1}}
+7517776 {'fullname': 'dead inside', 'winlose': {'win': 1, 'lose': 1}}
+7748285 {'fullname': 'Ľahká mentálna disfunkcia', 'winlose': {'win': 0, 'lose': 1}}
+7937856 {'fullname': '5dog', 'winlose': {'win': 7, 'lose': 4}}
+7668076 {'fullname': 'Silence Squad', 'winlose': {'win': 0, 'lose': 1}}
+7895511 {'fullname': 'NoTowers', 'winlose': {'win': 0, 'lose': 1}}
+2205890 {'fullname': 'TWCrit', 'winlose': {'win': 1, 'lose': 1}}
+5654051 {'fullname': 'TEAM KPP', 'winlose': {'win': 1, 'lose': 1}}
+5219841 {'fullname': 'Gentlemen', 'winlose': {'win': 0, 'lose': 1}}
+7899609 {'fullname': 'Team Family', 'winlose': {'win': 2, 'lose': 1}}
+7938017 {'fullname': 'Team Cinder', 'winlose': {'win': 0, 'lose': 1}}
+6567208 {'fullname': 'ILLUSION FOX GAMING', 'winlose': {'win': 0, 'lose': 1}}
+5869149 {'fullname': 'Crudmunchkin', 'winlose': {'win': 1, 'lose': 1}}
+5489077 {'fullname': 'No Bounty Hunter', 'winlose': {'win': 1, 'lose': 0}}
+4287803 {'fullname': 'Sinister5', 'winlose': {'win': 0, 'lose': 1}}
+6490995 {'fullname': 'SMARACIS eSports', 'winlose': {'win': 0, 'lose': 1}}
+7684721 {'fullname': 'Team Solid', 'winlose': {'win': 1, 'lose': 0}}
+7486089 {'fullname': 'Cyberium', 'winlose': {'win': 2, 'lose': 1}}
+7872613 {'fullname': 'noteam', 'winlose': {'win': 0, 'lose': 1}}
+4994888 {'fullname': 'RAKI IZ ROSSII', 'winlose': {'win': 0, 'lose': 1}}
+6740284 {'fullname': 'TEAM HEROIC', 'winlose': {'win': 2, 'lose': 1}}
+7938785 {'fullname': 'Tegernseer Helles', 'winlose': {'win': 1, 'lose': 1}}
+7821278 {'fullname': 'H1GHW4Y', 'winlose': {'win': 0, 'lose': 1}}
+7937433 {'fullname': "MO4A S'bELA GOVNO", 'winlose': {'win': 0, 'lose': 1}}
+7848119 {'fullname': 'NOVA', 'winlose': {'win': 3, 'lose': 1}}
+7849410 {'fullname': 'FlyToMoon 2.0', 'winlose': {'win': 3, 'lose': 5}}
+6738332 {'fullname': 'Mirek + 4 standins', 'winlose': {'win': 0, 'lose': 1}}
+7873104 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+5638726 {'fullname': '', 'winlose': {'win': 1, 'lose': 0}}
+7763895 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+6269245 {'fullname': '', 'winlose': {'win': 1, 'lose': 1}}
+5681778 {'fullname': '', 'winlose': {'win': 2, 'lose': 1}}
+7467177 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+7939515 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+6409189 {'fullname': '', 'winlose': {'win': 10, 'lose': 3}}
+7939534 {'fullname': '', 'winlose': {'win': 1, 'lose': 0}}
+7469027 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+7483630 {'fullname': '', 'winlose': {'win': 1, 'lose': 1}}
+2822779 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+7556067 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+7936404 {'fullname': '', 'winlose': {'win': 1, 'lose': 1}}
+7733547 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+7939330 {'fullname': '', 'winlose': {'win': 1, 'lose': 1}}
+2760860 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+1698450 {'fullname': '', 'winlose': {'win': 1, 'lose': 0}}
+7467698 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+7453744 {'fullname': '', 'winlose': {'win': 3, 'lose': 2}}
+7937313 {'fullname': 'Golie & Smeshnie', 'winlose': {'win': 1, 'lose': 1}}
+7939532 {'fullname': '4sc', 'winlose': {'win': 0, 'lose': 1}}
+7764015 {'fullname': 'ou7', 'winlose': {'win': 1, 'lose': 1}}
+7939531 {'fullname': 'S.T.D.S', 'winlose': {'win': 0, 'lose': 1}}
+5678270 {'fullname': 'Team Leggo', 'winlose': {'win': 0, 'lose': 1}}
+7921765 {'fullname': 'hysteria', 'winlose': {'win': 1, 'lose': 0}}
+7939545 {'fullname': 'Kritsula', 'winlose': {'win': 0, 'lose': 1}}
+7684881 {'fullname': 'KSK', 'winlose': {'win': 3, 'lose': 1}}
+1465503 {'fullname': 'Kunkka Rum V2', 'winlose': {'win': 0, 'lose': 1}}
+7917486 {'fullname': 'Plasma1337x VitaPLUR gum', 'winlose': {'win': 2, 'lose': 1}}
+7869044 {'fullname': 'Infinity E-sports. ', 'winlose': {'win': 0, 'lose': 1}}
+7934384 {'fullname': 'Yung Lund the Mixtape', 'winlose': {'win': 0, 'lose': 1}}
+2672298 {'fullname': 'Infamous Gaming', 'winlose': {'win': 8, 'lose': 5}}
+7716436 {'fullname': 'TESLA ESPORTS', 'winlose': {'win': 0, 'lose': 1}}
+7915673 {'fullname': 'Amarillos Esports', 'winlose': {'win': 1, 'lose': 0}}
+7058571 {'fullname': 'CUCAHOOK FAN', 'winlose': {'win': 1, 'lose': 0}}
+7389602 {'fullname': 'Incubus Gaming', 'winlose': {'win': 0, 'lose': 1}}
+7913270 {'fullname': 'ELITE CATS', 'winlose': {'win': 0, 'lose': 1}}
+7438158 {'fullname': 'Emilia Isobel Euphemia Rose Clarke', 'winlose': {'win': 1, 'lose': 1}}
+6815623 {'fullname': 'League Of Villains', 'winlose': {'win': 1, 'lose': 0}}
+7566802 {'fullname': 'Moist Lads ', 'winlose': {'win': 0, 'lose': 1}}
+7121518 {'fullname': 'Unknown Team', 'winlose': {'win': 4, 'lose': 2}}
+7563727 {'fullname': 'Kobravex Gaming', 'winlose': {'win': 0, 'lose': 1}}
+3510776 {'fullname': 'Mars Gaming', 'winlose': {'win': 0, 'lose': 1}}
+6266565 {'fullname': '0-900', 'winlose': {'win': 3, 'lose': 1}}
+7936196 {'fullname': 'Sannet Army', 'winlose': {'win': 1, 'lose': 0}}
+5055770 {'fullname': 'Gorillaz-Pride', 'winlose': {'win': 0, 'lose': 1}}
+7699827 {'fullname': 'Hell Boys Team', 'winlose': {'win': 0, 'lose': 1}}
+7331148 {'fullname': '~/zz', 'winlose': {'win': 1, 'lose': 1}}
+7468974 {'fullname': 'SandBlood', 'winlose': {'win': 2, 'lose': 0}}
+7833558 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+7872607 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+6849739 {'fullname': '', 'winlose': {'win': 4, 'lose': 2}}
+6270654 {'fullname': '', 'winlose': {'win': 1, 'lose': 0}}
+5526358 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+7893240 {'fullname': '', 'winlose': {'win': 2, 'lose': 1}}
+7310385 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+7497820 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+7358559 {'fullname': '', 'winlose': {'win': 1, 'lose': 1}}
+7626304 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+7938769 {'fullname': '', 'winlose': {'win': 1, 'lose': 1}}
+4138284 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+7424657 {'fullname': '', 'winlose': {'win': 1, 'lose': 0}}
+5575557 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+7938015 {'fullname': '', 'winlose': {'win': 1, 'lose': 1}}
+7465389 {'fullname': '', 'winlose': {'win': 1, 'lose': 1}}
+3731273 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+7001385 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+7852016 {'fullname': '', 'winlose': {'win': 1, 'lose': 1}}
+7895585 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+6196130 {'fullname': '', 'winlose': {'win': 1, 'lose': 1}}
+7217209 {'fullname': '', 'winlose': {'win': 3, 'lose': 0}}
+7078817 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+7939834 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+7138130 {'fullname': '', 'winlose': {'win': 1, 'lose': 0}}
+2529517 {'fullname': '', 'winlose': {'win': 1, 'lose': 1}}
+7422925 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+6074631 {'fullname': '', 'winlose': {'win': 1, 'lose': 1}}
+4805857 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+7611751 {'fullname': '', 'winlose': {'win': 1, 'lose': 1}}
+7939189 {'fullname': '', 'winlose': {'win': 0, 'lose': 1}}
+4817649 {'fullname': '496 Gaming', 'winlose': {'win': 1, 'lose': 1}}
+7894934 {'fullname': 'VIP', 'winlose': {'win': 0, 'lose': 1}}
+7833289 {'fullname': 'NGID.M11', 'winlose': {'win': 2, 'lose': 1}}
+6955812 {'fullname': 'Southern Dotes', 'winlose': {'win': 0, 'lose': 1}}
+6492873 {'fullname': 'Dream', 'winlose': {'win': 0, 'lose': 1}}
+7638823 {'fullname': 'STG', 'winlose': {'win': 1, 'lose': 1}}
+7623629 {'fullname': 'ARMY GENIUSES', 'winlose': {'win': 1, 'lose': 1}}
+7314682 {'fullname': 'Impunity', 'winlose': {'win': 0, 'lose': 1}}
+6187657 {'fullname': 'Neon Esports', 'winlose': {'win': 2, 'lose': 1}}
+7801140 {'fullname': 'SouthPaw Gaming', 'winlose': {'win': 0, 'lose': 1}}
+7565483 {'fullname': 'Extremist', 'winlose': {'win': 0, 'lose': 1}}
+5109000 {'fullname': 'ReckoninG Esports', 'winlose': {'win': 2, 'lose': 1}}
+7939360 {'fullname': 'Shaolin Monkeys', 'winlose': {'win': 0, 'lose': 1}}
+3262527 {'fullname': 'MALAGA', 'winlose': {'win': 0, 'lose': 1}}
+7852106 {'fullname': 'M C K W E E N', 'winlose': {'win': 1, 'lose': 1}}
+7316976 {'fullname': 'Whoops!', 'winlose': {'win': 0, 'lose': 1}}
+7408845 {'fullname': 'Execration', 'winlose': {'win': 1, 'lose': 1}}
+7794384 {'fullname': 'QuestionMark', 'winlose': {'win': 0, 'lose': 1}}
+3931330 {'fullname': 'Burmese Ghouls', 'winlose': {'win': 0, 'lose': 1}}
+7938339 {'fullname': 'Team Anonymous', 'winlose': {'win': 1, 'lose': 0}}
+5837973 {'fullname': 'PG BARRACX', 'winlose': {'win': 0, 'lose': 1}}
+7893991 {'fullname': 'rapidd', 'winlose': {'win': 0, 'lose': 1}}
+7873749 {'fullname': 'Astronauts', 'winlose': {'win': 1, 'lose': 1}}
+6720539 {'fullname': 'Evreyskiy Vrach Obrati Vnimanie Moy Region Golodaet', 'winlose': {'win': 0, 'lose': 1}}
+5014799 {'fullname': 'Nemiga Gaming', 'winlose': {'win': 3, 'lose': 2}}
+6818714 {'fullname': 'Cascade Esports', 'winlose': {'win': 0, 'lose': 1}}
+3508243 {'fullname': 'Meow 111', 'winlose': {'win': 0, 'lose': 1}}
+7356340 {'fullname': 'NFD yOUNG', 'winlose': {'win': 1, 'lose': 1}}
+7236345 {'fullname': 'Pachaqtk', 'winlose': {'win': 0, 'lose': 1}}
+980456 {'fullname': 'Ham-Ham Clubhouse', 'winlose': {'win': 0, 'lose': 1}}
+7872640 {'fullname': 'Doze Reborn', 'winlose': {'win': 1, 'lose': 1}}
+7781709 {'fullname': 'RONALDINHO EL MAGICO', 'winlose': {'win': 1, 'lose': 1}}
+7939835 {'fullname': 'throne', 'winlose': {'win': 0, 'lose': 1}}
+7892254 {'fullname': 'DSB "The Last Ride"', 'winlose': {'win': 1, 'lose': 0}}
+7819852 {'fullname': '.', 'winlose': {'win': 1, 'lose': 0}}
+2406808 {'fullname': "World's End", 'winlose': {'win': 0, 'lose': 1}}
+7937092 {'fullname': 'ghoul', 'winlose': {'win': 1, 'lose': 1}}
+1895993 {'fullname': 'Taango Gaming', 'winlose': {'win': 0, 'lose': 1}}
+4818448 {'fullname': 'Low Profile', 'winlose': {'win': 5, 'lose': 4}}
+922590 {'fullname': 'We Dont Speak Spanish', 'winlose': {'win': 0, 'lose': 1}}
+7956325 {'fullname': 'Cygnus Pi', 'winlose': {'win': 0, 'lose': 1}}
+7404529 {'fullname': 'Reality Rift', 'winlose': {'win': 10, 'lose': 12}}
+7847979 {'fullname': 'BadBoys', 'winlose': {'win': 5, 'lose': 6}}
+7667536 {'fullname': 'MOTIVADE.TRUST GAMING', 'winlose': {'win': 2, 'lose': 4}}
+7819028 {'fullname': '4 Zoomers', 'winlose': {'win': 5, 'lose': 5}}
+6953913 {'fullname': 'FlyToMoon', 'winlose': {'win': 25, 'lose': 17}}
+2108395 {'fullname': 'TNC Predator', 'winlose': {'win': 2, 'lose': 9}}
+7819701 {'fullname': 'VP.Prodigy', 'winlose': {'win': 11, 'lose': 10}}
+7390454 {'fullname': 'Quincy Crew', 'winlose': {'win': 13, 'lose': 3}}
+7930695 {'fullname': 'FAMILY TEAM', 'winlose': {'win': 4, 'lose': 12}}
+8021531 {'fullname': 'CYBERIUM.S', 'winlose': {'win': 2, 'lose': 5}}
+7542148 {'fullname': ' EXTREMUM', 'winlose': {'win': 6, 'lose': 4}}
+46 {'fullname': 'Team Empire', 'winlose': {'win': 3, 'lose': 5}}
+[Finished in 0.3s]

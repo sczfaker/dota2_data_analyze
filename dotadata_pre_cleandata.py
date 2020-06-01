@@ -1,12 +1,12 @@
 from os import chdir,listdir,rename
-from time import sleep
-import random
-from random import randint
-from json import dump
-import requests
-from requests import get
-from bs4 import BeautifulSoup
 from re import findall,compile
+from bs4 import BeautifulSoup
+from random import randint
+from time import sleep
+from json import dump
+from requests import get
+import requests
+import random
 chdir("dota")
 links=[]
 for i in listdir():

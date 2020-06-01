@@ -7,7 +7,7 @@ from re import findall,compile,search
 from random import randint
 from time import sleep
 
-"http://replay113.valve.net/570/3362113115_2087377833.dem.bz2"
+replay_url="http://replay113.valve.net/570/3362113115_2087377833.dem.bz2"
 def save_match_base_info(url):
 	filepath=""
 	matches={}

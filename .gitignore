@@ -2,3 +2,6 @@
 *.zip
 *.txt
 *.json
+*.pkl
+*.csv
+*.html
