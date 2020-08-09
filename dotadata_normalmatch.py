@@ -1,4 +1,4 @@
-
+"中文显示测试"
 import sys,io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf-8')
 

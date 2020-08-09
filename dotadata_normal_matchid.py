@@ -10,7 +10,7 @@ from time import sleep
 import urllib3
 urllib3.disable_warnings()
 class TeamMate(object):
-    """docstring for ClassName"""
+    """组队匹配"""
     def __init__(self):
         #super(ClassName, self).__init__()
         self.ateamplayers_id=""
@@ -25,11 +25,11 @@ class TeamMate(object):
         self.UPDATE_MID_NORMAL_QUEUE=True
         self.MATCH_DIR_0727="./MATCH_JSON_DIR_0727/"
         self.aster_aries={"","","","",""}
-        self.max_play_estimate=70
+        self.max_play_estimate=40
         self.query_ability="?limit=%d&game_mode=1"%(self.max_play_estimate)
         self.query_draft="?limit=%d&game_mode=3"%(self.max_play_estimate)
         self.query_allpick="?limit=%d&game_mode=22"%(self.max_play_estimate)
-        self.time_limit="2020-07-07 08:54:01"#版本更新比赛的日期格式
+        self.time_limit="2020-07-17 08:54:01"#版本更新比赛的日期格式
         self.time_limit=time.mktime(time.strptime(self.time_limit,"%Y-%m-%d %H:%M:%S"))
         query_para=["limit",""]
     def __repr__(self):
@@ -215,52 +215,13 @@ class TeamMate(object):
         with open(self.MATCH_DIR_0727+"queue_normal.txt","a+",encoding="utf-8") as f:
             f.seek(0)
             f.writelines(new_id)
-
-                #     if len(total)>10:
-                #         print ("one_id recent match 70:",len(total))
-                #         f=True
-                # if f==True:
-                #     break
-            # with open("0727_normal_json","w+",encoding="utf-8") as f:
-            #     dump(f,list_all+list_random)
-        # with open("normal_match_id_queue.txt","a+") as f:
-        #ifexist=[i.strip() for i in f.readlines()]
-        #f.seek(0)
-        # for onematch in d1_allpick:#使用ziplonggest简化代码
-        #     one_new_match_id=onematch["match_id"]
-        #     time_this_match=onematch["start_time"]
-        #     if self.htmltime_to_strptime(time_this_match):
-        #         print ("a match catch",self.count)
-        #         if str(one_new_match_id) not in ifexist:
-        #             ifexist.append(str(one_new_match_id))
-        #             f.write(str(one_new_match_id)+"\n")
-        #             self.count+=1
-        # for onematch in d2_draft:
-        #     one_new_match_id=onematch["match_id"]
-        #     time_this_match=onematch["start_time"]
-        #     if self.htmltime_to_strptime(time_this_match):
-        #         print ("a match catch",self.count)
-        #         if str(one_new_match_id) not in ifexist:
-        #             ifexist.append(str(one_new_match_id))
-        #             f.write(str(one_new_match_id)+"\n")
-        #             self.count+=1
-        #             print (len(ifexist))
-        # print ("new matchid in queue number:",self.count)
     def htmltime_to_strptime(self,one_time_match):
         """time format 时间格式"""
         if one_time_match>self.time_limit:
             return True
         else:
             return False
-        # struct_time_limit=time.strptime(self.time_limit,"%Y-%m-%d %H:%M:%S")
-        # timelimit=time.mktime(struct_time_limit)
-        # day_format=time_htmlpage.split("T")
-        # time_format=day_format[1].split("+")[0]
-        # match_time_day=" ".join([day_format[0],time_format])
-        # struct_match_time_day=time.strptime(match_time_day,"%Y-%m-%d %H:%M:%S")
-        # return struct_time_limit,struct_match_time_day
-#可用:wl,matches,recentMatches,heroes,peers,totals,counts,wardmap,wordcloud"
-#疑似不可用:histogram,ratings,pros"
+
 if __name__ == '__main__':
     instance=TeamMate()
     #x.my_account_data()

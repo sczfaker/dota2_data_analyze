@@ -5,3 +5,7 @@
 *.pkl
 *.csv
 *.html
+*.dem.bz2
+*.htm
+*.mp4
+*.xml
